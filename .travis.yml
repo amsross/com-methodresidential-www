@@ -3,7 +3,7 @@ node_js:
   - "0.10.25"
 before_install:
   - gem install jekyll
-  - npm install -g grunt-cli bower
+  - npm install -g grunt-cli
 install: npm install
 script: grunt build
 
@@ -11,7 +11,7 @@ script: grunt build
 branches:
   only:
     - master     # test the gh-pages branch
-    - gh-pages     # test the gh-pages branch
+    - gh-pages   # test the gh-pages branch
 
 env:
   global:

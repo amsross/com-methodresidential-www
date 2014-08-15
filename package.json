@@ -4,11 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/grunt-cli/bin/grunt",
-    "test": "node node_modules/grunt-cli/bin/grunt test",
-    "postinstall": [
-        "node node_modules/bower/bin/bower install",
-        "node node_modules/grunt-cli/bin/grunt build"
-        ]
+    "postinstall": "node node_modules/grunt-cli/bin/grunt build"
   },
   "engines": {
     "node": "0.10.25"
