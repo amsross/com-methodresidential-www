@@ -1,0 +1,22 @@
+# GitHub presets
+safe: true
+lsi: false
+
+# custom settings
+author: Matt Ross
+author_email: matt@mattross.io
+description: method residential
+destination: ./_site
+exclude:
+  - package.json
+  - Gruntfile.js
+  - node_modules
+gems:
+  - jekyll-sitemap
+keys:
+  ga: UA-XXXXXXXX-1
+name: METHOD RESIDENTIAL
+permalink: pretty
+source: .
+timezone: America/New_York
+url: http://www.methodresidential.com
