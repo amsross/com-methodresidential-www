@@ -10,7 +10,6 @@ script: grunt build
 # branch whitelist
 branches:
   only:
-    - master     # test the gh-pages branch
     - gh-pages   # test the gh-pages branch
 
 env:
